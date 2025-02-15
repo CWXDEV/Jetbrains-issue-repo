@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Jetbrains_Issue_Repo</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>Shared\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="0Harmony20">
+        <HintPath>Shared\0Harmony20.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>Shared\hollowed.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx">
+        <HintPath>Shared\BepInEx.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Harmony">
+        <HintPath>Shared\BepInEx.Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Mono.Cecil">
+        <HintPath>Shared\Mono.Cecil.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
